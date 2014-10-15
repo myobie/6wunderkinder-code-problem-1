@@ -18,7 +18,7 @@ CONSUMER_KEY=abc CONSUMER_SECRET=xyz lein run
 
 - - -
 
-## Changelog
+## Development log
 
 * Edited the project.clj file with my info
 * Added clj-http as a dependency
