@@ -10,7 +10,7 @@
 
 (def base-url          "https://api.twitter.com/")
 (def search-url        (str base-url "1.1/search/tweets.json"))
-(def search-params     {"q" "6wunderkinder" "count" "100" "result_type" "recent"})
+(def search-params     {"count" "100" "q" "6wunderkinder" "result_type" "recent"})
 (def token-url         (str base-url "oauth2/token"))
 (def consumer-key      (getenv "CONSUMER_KEY"))
 (def consumer-secret   (getenv "CONSUMER_SECRET"))

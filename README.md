@@ -34,5 +34,7 @@ CONSUMER_KEY=abc CONSUMER_SECRET=xyz lein run
 * Learned that `str` is how one concat's strings
 * Could'nt get `map` to work, so I used `doseq` instead. I don't
   understand why I couldn't use `map`.
+* The `count` param to the twitter api seems to just not work.
 
 [Stackoverflow link]: http://stackoverflow.com/questions/11825444/clojure-base64-encoding
+
